@@ -1,4 +1,4 @@
-#### 3/4
+#### INTRODUCTION
 ### 1.5 What Makes a Website?
     - Website is just text
     - 브라우저 understands your code
@@ -31,3 +31,15 @@
     HTML -> Markup language (Borns)
     CSS -> language for design and style (Mustle)
     JS -> Web Programming language (Brain)
+
+### 2.0 Our First HTML File
+    파일명/폴더명은 항상 소문자로 작성한다
+    html -> 확장자명
+    파일 내용이 변경될 때 마다, 저장 필수
+
+### 2.1 Setup and Errors
+    Extensions에서 테마와 아이콘 설치
+
+### 2.2 Our First HTML Tag
+    What is tag -> Html은 tag를 text로 넣음
+    <food>김치</food>라는 tag로 인해 브라우저는 김치가 food라는 걸 알게 됨
