@@ -66,4 +66,30 @@
 
 ### 2.4 Tag Attributes
 
-    <a> //anchor_닻 -> link
+    <a></a> //anchor_닻 -> link
+        link는 추가적인 정보가 필요함 -> where we going
+        -> tag에 추가하는 부가적인 정보 : attribute(속성)
+        * href(attribute) : http reference or hyperlink reference
+            href는 오직 a 태그에만 적용할 수 있다.
+        * target : default 값 _self , _blank
+
+    <img/> //닫아주는 태그가 존재하지 않음 -> self-closing tag(자체 닫기 태그)
+        * src
+
+### 2.5 More Tags and Head
+
+    <!DOCTYPE html> //브라우저에게 text 파일이 아닌 html 문서임을 알려줌
+    <html>
+        <head> 웹사이트의 환경을 설정 </head>
+        <body> 사용자가 볼 수 있는 content </body>
+    </html>
+
+### 2.6 Its All About the Head
+
+    <meta> 구글 검색에서 보여지는 description
+    구글이 사이트에서 title과 description을 가져오는거야
+
+    <meta charset="utf-8"/> 브라우저에게 text를 어떻게 그려달라는지 말해줌
+    * meta 태그는 self closing tag
+
+    <html lang=""> 구글, 네이버, bing 같은 검색 엔진들에게 도움을 주기 위해서
