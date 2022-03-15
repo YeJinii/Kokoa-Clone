@@ -93,3 +93,9 @@
     * meta 태그는 self closing tag
 
     <html lang=""> 구글, 네이버, bing 같은 검색 엔진들에게 도움을 주기 위해서
+
+### 2.7 More Tags
+
+    html tags mdn 페이지에서 확인
+
+### 2.8 Form Tags
