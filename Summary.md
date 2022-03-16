@@ -98,4 +98,32 @@
 
     html tags mdn 페이지에서 확인
 
-### 2.8 Form Tags
+### 2.8 Form Tags 2.9 More Tags and IDs
+
+    <form>
+    <label> form에 question을 추가할 수 있음
+
+    for과 id에 들어가는 값은 동일해야함
+    -> for과 같은 값을 가진 id를 들고있는 input을 작동시켜줌
+
+    element당 하나의 id만 가질 수 있음
+    전체 html 문서에서 id는 고유해야함
+
+    id : scripting이나 css를 식별하려는 목적을 가진 attribute
+
+### 2.10 Semantic HTML
+
+    <div> - division 분할, 구분, 경계선
+    div 는 박스
+    <span> - for short text
+
+    <head> != <header>
+
+    <header>, <main>, <footer>  body 안에 포함 되어있는 태그
+    div를 대체 할 수 있음 -> 하지만 알아보기 어렵기 때문에 지양
+
+    main, footer, aside 등등 의미가 있는 box를 되도록이면 쓰자
+
+### 2.11 Recap
+
+    Always use ""(큰따옴표) !!
