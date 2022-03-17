@@ -127,3 +127,29 @@
 ### 2.11 Recap
 
     Always use ""(큰따옴표) !!
+
+## #3 LEARNING CSS
+
+### 3.0 How to Add CSS to HTML
+
+    어떻게 하면 CSS를 HTML페이지에 추가할 수 있는지를 이해해야 함
+
+    CSS와 HTML을 같이 둘 수도 있고 따로 둘 수도 있음
+
+    방법 1. <head> 태그 내부에 <style> 태그를 작성하고 안에 CSS 기입
+
+    방법 2. CSS 파일을 따로 두고 link로 파일을 연결
+    rel(rel="stylesheet" 명시)
+
+    styles.css는 스타일시트
+
+### 3.1 Writing Our First CSS Lines
+
+    selector 안에 속성 properties 명시
+    HTML의 어떤 태그를 가리키고 CSS로 잡아와서 쓰면댐
+
+    tag { property : vale; } // 세미콜론 꼭 찍어야함
+
+### 3.2 What Does Cascading Mean
+
+    Cascading 브라우저가 css코드를 읽을때 위에서 부터 차례대로 읽음
