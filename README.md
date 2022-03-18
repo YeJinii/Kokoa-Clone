@@ -153,3 +153,38 @@
 ### 3.2 What Does Cascading Mean
 
     Cascading 브라우저가 css코드를 읽을때 위에서 부터 차례대로 읽음
+
+    inline CSS / external CSS
+
+    만약 위 두 CSS코드가 같은 대상을 가리키게 되면 어떻게 될까?
+
+    마지막 코드로 적용됨
+
+### 3.3 Blocks and Inlines
+
+    box(div)옆에는 아무것도 오지 않음
+    span은 옆에 다른 요소들이 올 수 있음
+
+    box - div , p, address, header
+    inline - a(link), span, img
+
+### 3.4 Margin Part One
+
+    block을 inline으로 바꾸는 게 가능할까? ㅇㅇ
+    inline을 block 속성으로 변경 : display
+
+    span의 default display 속성 : inline
+    inline은 높이와 너비를 가질 수 없음
+
+    box의 엄청난 특징 3가지
+    margin padding border
+
+    * margin : box의 border(경계)로부터 바깥에 있는 공간
+
+### 3.5 Margin Part Two
+
+    margin: 0; //사방
+    margin:20px 15px; // 위아래_양 옆
+    margin: 5px; 10px; 15px; 20px;  //위 오 아래 좌 ( 시계 방향 )
+
+    collapsing margins : 두 박스의 경계가 같다면 두 margin은 하나로 취급됨
