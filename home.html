@@ -3,22 +3,49 @@
   <head>
     <title>Home - My first website.</title>
     <style>
+      * {
+        border: 1px solid black;
+      }
       html {
         background-color: palevioletred;
       }
       body {
-        margin: 0;
+        margin: 20px;
+        padding: 10px;
         background-color: pink;
       }
       div {
-        margin-left: 50px;
+        padding: 10px;
+      }
+      #first {
         height: 150px;
         width: 150px;
-        background-color: papayawhip;
+        background-color: rgb(248, 187, 108);
+      }
+      #second {
+        height: 130px;
+        width: 130px;
+        background-color: rgb(146, 228, 109);
+      }
+      #third {
+        height: 110px;
+        width: 110px;
+        background-color: rgb(119, 203, 209);
+      }
+      #fourth {
+        height: 90px;
+        width: 90px;
+        background-color: plum;
       }
     </style>
   </head>
   <body>
-    <div></div>
+    <div id="first">
+      <div id="second">
+        <div id="third">
+          <div id="fourth"><span>hello</span></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

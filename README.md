@@ -188,3 +188,17 @@
     margin: 5px; 10px; 15px; 20px;  //위 오 아래 좌 ( 시계 방향 )
 
     collapsing margins : 두 박스의 경계가 같다면 두 margin은 하나로 취급됨
+
+### 3.6 Paddings and IDs
+
+    padding : box의 경계로부터 안쪽에 있는 공간
+
+    #first : id가 first인 것을 가리킴
+
+### 3.7 Border
+
+    border : 2px solid black
+    *{
+        모든 요소에 적용
+        inline에도 적용됨
+    }
