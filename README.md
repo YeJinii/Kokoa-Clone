@@ -202,3 +202,53 @@
         모든 요소에 적용
         inline에도 적용됨
     }
+
+### 3.8 Classes
+
+    inline은 높이와 너비 없음 -> 위, 아래 margin 을 가질수 없음
+    class="blue"
+    css -> .blue{}
+    class는 재사용이 가능, id는 고유해야함
+
+    class="btn blue" -> 여러개 적용 가능
+
+### 3.9 Inline Block
+
+    display : inline-block inline속성을 가지면서 너비 높이를 가질 수 있음
+    but inline-block 은 별로임. 정해진 형식이 없기 때문
+
+### 3.10 Flexbox Part One
+
+    flexbox : 자식 엘리먼트에 말하지 않고 부모 엘리먼트에만 말한다
+
+    body {
+        display: flex;
+        justify-content: center, flex-end, flex-start, space-evenly...
+    }
+
+    main axis : 주축 -> justify-content
+    cross axis : 교차축 -> align-items
+
+    vh : viewport height
+
+### 3.11 Flexbox Part Two
+
+    주축과 교차축은 디폴트로 수평, 수직
+    디폴트 값을 바꾸기 위해선 flex-direction 수정
+    flex-direction : column -> 주축과 교차축을 변경
+
+### 3.12 Fixed
+
+    position : 위치를 옮기고 싶을 때 사용
+    position : fixed -> 그대로 존재
+    top, left, bottom 중 하나만 수정해도 다른 레이어가 됨
+
+### 3.13 Relative Absolute
+
+    position : static; // 레이아웃이 박스를 처음 위치하는 곳에 두는 것
+    position : relative; //element가 처음 위치한 곳을 기준으로 수정하는 것
+    position : absolute; //가장 가까운 relative 부모를 기준으로 이동시켜줌
+
+    부모 relative - 자식 absolute
+
+### 3.14 Pseudo Selectors part One
