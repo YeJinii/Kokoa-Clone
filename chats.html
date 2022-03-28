@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - KoKoa Talk</title>
+    <title>Chats - KoKoa Talk</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
@@ -25,7 +27,7 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
         <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
@@ -38,7 +40,7 @@
       <div class="user-component">
         <div class="user-component__column">
           <img
-            src="./img/profile_img.jpg"
+            src="./img/kakao_img.png"
             class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
@@ -46,7 +48,10 @@
             <h6 class="user-component__subtitle">Please check My KoKoa Info</h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <div class="user-component__column">
+          <span class="user-component__time">21:22</span>
+          <div class="badge">1</div>
+        </div>
       </div>
     </main>
 
@@ -59,7 +64,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification">1</span>
+            <span class="nav__notification badge">1</span>
             <i class="fas fa-comment fa-2x"></i>
           </a>
         </li>
