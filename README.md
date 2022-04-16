@@ -1,5 +1,9 @@
 # Kokoa Talk Clone Coding
 
+## Screen Shot <br>
+
+![screens](./screenshots/screens.png)
+
 ## Sign Up Screen <br>
 
 ![signup_screen](./screenshots/signup_screen.PNG)
