@@ -15,3 +15,7 @@
 ## Find Screen <br>
 
 ![find_screen](./screenshots/find_screen.PNG)
+
+## More Screen <br>
+
+![more_screen](./screenshots/more_screen.PNG)
