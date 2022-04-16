@@ -11,3 +11,7 @@
 ## Chats Screen <br>
 
 ![chats_screen](./screenshots/chats_screen.PNG)
+
+## Find Screen <br>
+
+![find_screen](./screenshots/find_screen.PNG)
